@@ -1,0 +1,1 @@
+{"format_version":"1.16.210","minecraft:entity":{"description":{"identifier":"minecraft:ender_crystal","is_summonable":false},"components":{"minecraft:instant_despawn":{"remove_child_entities":true}}}}

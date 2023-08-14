@@ -1,0 +1,48 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§l§dCat§bAC§a 防掛貓 v4.0.2",
+    "description": "§d最可愛的防掛! :doge:\n§l§f作者: §ejasonlaubb §f| Discord: §ebit.ly/MBS_DC§r\n§c需要啟用教育版, 測試版API, 夏日創作者, Mojang功能及實驗版鏡頭功能",
+    "uuid": "cf8c8bfb-c0ad-41a5-9343-ced247496bbd",
+    "version": [
+      4,
+      0,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "CatAC data",
+      "type": "data",
+      "uuid": "ade34da9-fece-4b82-a3b2-b5ce09314b84",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "CatAC main",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "f0e49f4d-1f9d-42bd-bfda-bf356ad24928",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.4.0-beta"
+    }
+  ]
+}
