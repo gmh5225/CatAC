@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§l§dCat§bAC§a 防掛貓 v2.3.8",
+    "description": "最好的多功能管理工具和防外掛插件\n作者: jasonlaubb | Discord: bit.ly/MBS_DC\n§c§l需要啟用教育版, 測試版API, 夏日創作者, Mojang功能及實驗版鏡頭功能",
+    "uuid": "85a10b0a-df34-4222-a473-0d036c299c19",
+    "version": [ 2, 3, 8 ],
+    "min_engine_version": [ 1, 17, 0 ]
+  },
+  "modules": [
+    {
+      "description": "CatAC data",
+      "type": "data",
+      "uuid": "ade34da9-fece-4b82-a3b2-b5ce09314b84",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "description": "CatAC main",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "f0e49f4d-1f9d-42bd-bfda-bf356ad24928",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.4.0-beta"
+    }
+  ]
+}
