@@ -23,7 +23,7 @@ It have many thingy to protect and detect cheat
 1. Don't delete any js file, it may cause bug
 2. When editing config, don't forget to add ,
 3. Don't try to edit the main.js, CatAC will become C4
-4. CatAC - main are using language (Chinese), English is making
+4. CatAC - are using language (Chinese)
 
 # Special thanks
 Thanks for BlueBoot(hu_ao008) help for detect suggestions and debuging
